@@ -21,6 +21,7 @@
 		075AA44618AD5DFC00158FAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075AA42818AD5DFB00158FAE /* UIKit.framework */; };
 		075AA44E18AD5DFC00158FAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 075AA44C18AD5DFC00158FAE /* InfoPlist.strings */; };
 		075AA45018AD5DFC00158FAE /* MemoryManagementHWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 075AA44F18AD5DFC00158FAE /* MemoryManagementHWTests.m */; };
+		075AA45B18AD6E2E00158FAE /* BlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 075AA45A18AD6E2E00158FAE /* BlockDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		075AA44B18AD5DFC00158FAE /* MemoryManagementHWTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemoryManagementHWTests-Info.plist"; sourceTree = "<group>"; };
 		075AA44D18AD5DFC00158FAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		075AA44F18AD5DFC00158FAE /* MemoryManagementHWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryManagementHWTests.m; sourceTree = "<group>"; };
+		075AA45918AD6E2E00158FAE /* BlockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockDelegate.h; sourceTree = "<group>"; };
+		075AA45A18AD6E2E00158FAE /* BlockDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				075AA43618AD5DFB00158FAE /* Main.storyboard */,
 				075AA43918AD5DFB00158FAE /* ViewController.h */,
 				075AA43A18AD5DFB00158FAE /* ViewController.m */,
+				075AA45918AD6E2E00158FAE /* BlockDelegate.h */,
+				075AA45A18AD6E2E00158FAE /* BlockDelegate.m */,
 				075AA43C18AD5DFB00158FAE /* Images.xcassets */,
 				075AA42B18AD5DFB00158FAE /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075AA45B18AD6E2E00158FAE /* BlockDelegate.m in Sources */,
 				075AA43B18AD5DFB00158FAE /* ViewController.m in Sources */,
 				075AA43518AD5DFB00158FAE /* AppDelegate.m in Sources */,
 				075AA43118AD5DFB00158FAE /* main.m in Sources */,

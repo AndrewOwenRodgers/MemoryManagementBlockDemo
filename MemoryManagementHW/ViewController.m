@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BlockDelegate.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,40 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	char *cString = malloc(9 * sizeof(char));
+	cString[0] = 'R';
+	cString[1] = 'o';
+	cString[2] = 'd';
+	cString[3] = 'g';
+	cString[4] = 'e';
+	cString[5] = 'r';
+	cString[6] = 's';
+	cString[7] = '!';
+	cString[8] = '\0';
+	
+	for (int i = 0; i < 8; i++)
+	{
+		NSLog(@"%c", cString[i]);
+	}
+	NSLog(@"%s", cString);
+	
+	cString[0] = 'B';
+	cString[1] = 'a';
+	cString[2] = 'r';
+	cString[3] = 'n';
+	cString[4] = 'a';
+	cString[5] = 'r';
+	cString[6] = 'd';
+	cString[7] = '!';
+	
+	for (int i = 0; i < 8; i++)
+	{
+		NSLog(@"%c", cString[i]);
+	}
+	NSLog(@"%s", cString);
+	free(cString);
+	
+	BlockDelegate *blockDelegate = [[BlockDelegate alloc] init];
 }
 
 - (void)didReceiveMemoryWarning
